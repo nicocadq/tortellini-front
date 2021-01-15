@@ -1,5 +1,11 @@
+import { SectionTitle, Wrapper } from './CustomizationPanel.styles';
+
 const CustomizationPanel = () => {
-  return <h1>Panel</h1>;
+  return (
+    <Wrapper>
+      <SectionTitle>Panel</SectionTitle>
+    </Wrapper>
+  );
 };
 
 export default CustomizationPanel;

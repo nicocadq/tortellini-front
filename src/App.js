@@ -5,7 +5,7 @@ import { ThemeProvider } from '@emotion/react';
 import theme from './theme';
 import './App.css';
 
-const Creator = lazy(() => import('./screens/Creator'));
+const Creator = lazy(() => import('./screens/Creator/index'));
 
 const App = () => {
   return (
